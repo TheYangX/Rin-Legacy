@@ -1,0 +1,17 @@
+name: RP Scene
+description: Create a new roleplay scene entry
+title: "{DISCORD CHANNEL}: {Episode name}"
+labels: ["scene-planning"]
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Basic information about the scene
+      value: |
+        Purpose: {Brief explanation of the scene, setting or anything else pertaining to the episode}
+
+        OCs involved: {Any OCs planned to use in the scene}
+    validations:
+      required: true
